@@ -24,8 +24,6 @@ We developed a functional MVP capable of predicting offensive formations with ov
 - `FieldSegmentation.ipynb`: Field segmentation from practice footage  
 - `DetectPlayersAndLabelOffenseAndDefense.ipynb`: Player detection and team labeling  
 - `FormationDetection.ipynb`: Neural network for formation prediction  
-- `initialData.csv`: Raw coordinate data  
+- `initialData.csv`: Raw HUDL data  
 - `simplifiedDataWithCoordinates.csv`: Labeled player positions and formations  
 - `largeModel.pt`: Trained PyTorch model
-
-  
