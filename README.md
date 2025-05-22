@@ -10,7 +10,7 @@ The primary objective was to reduce the manual effort coaches invest in tagging 
 - Help analyze tendencies by formation
 - Provide actionable, time-saving insights to coaching staff
 
-Our MVP achieved over 50% accuracy, a 3× improvement over fall 2023 testing, despite limited data and compututation resources.
+Our model achieved a 3x improvement over fall 2023 testing, correctly classifying formations for the majority of plays in the test sample, despite limited data and compututation resources.
 
 ## Technical Approach
 
