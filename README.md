@@ -42,7 +42,7 @@ We applied computer vision techniques to detect player bounding boxes and classi
 
 We trained a convolutional neural network using PyTorch that predicts formation labels from 3D arrays representing offensive player coordinates.
 
-![Output Sample](./ExampleOutput.png)
+![Output Sample](./images/ExampleOutput.png)
 
 ## Repository Contents
 
