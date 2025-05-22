@@ -32,7 +32,7 @@ We used image preprocessing to locate the field and establish a coordinate syste
 
 We applied computer vision techniques to detect player bounding boxes and classify them as offensive or defensive using color/position heuristics.
 
-![Player Labeling](./Detection.png)
+![Player Labeling](.images/Detection.png)
 
 ---
 
