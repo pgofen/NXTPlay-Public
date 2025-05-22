@@ -18,6 +18,8 @@ The project was structured into three key stages:
 
 ### 1. Field Segmentation
 
+`FieldSegmentation.ipynb`
+
 We used image preprocessing to locate the field and establish a coordinate system to later map player positions accurately.
 
 ![Field Segmentation](./Segmentation.png)
@@ -25,6 +27,8 @@ We used image preprocessing to locate the field and establish a coordinate syste
 ---
 
 ### 2. Player Detection & Team Labeling
+
+`DetectPlayersAndLabelOffenseAndDefense.ipynb`
 
 We applied computer vision techniques to detect player bounding boxes and classify them as offensive or defensive using color/position heuristics.
 
@@ -34,29 +38,11 @@ We applied computer vision techniques to detect player bounding boxes and classi
 
 ### 3. Formation Detection
 
-We trained a neural network using PyTorch that predicts formation labels from simplified XY coordinate arrays representing offensive player alignment.
+`FormationDetection.ipynb`
+
+We trained a convolutional neural network using PyTorch that predicts formation labels from 3D arrays representing offensive player coordinates.
 
 ![Output Sample](./ExampleOutput.png)
-
-## Technical Approach
-
-Our pipeline included several key stages:
-
-1. **Field Segmentation**  
-   `FieldSegmentation.ipynb` processes raw footage to delineate the playing field, laying the groundwork for accurate player detection.
-
-2. **Player Detection and Labeling**  
-   `DetectPlayersAndLabelOffenseAndDefense.ipynb` uses computer vision to locate players and distinguish offensive from defensive units.
-
-3. **Formation Detection**  
-   `FormationDetection.ipynb` builds a neural network model that ingests player coordinates and predicts offensive formations.
-
-## Results
-
-Despite limited data and computational resources, we developed an MVP model capable of detecting offensive formations over approximately 50% accuracy—a threefold improvement over baseline testing from Fall 2023.
-
-### Sample Output
-![Example Output: Offensive Formation Detection](ExampleOutput.png)
 
 ## Repository Contents
 
