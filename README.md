@@ -22,7 +22,7 @@ The project was structured into three key stages:
 
 We used image preprocessing to locate the field and establish a coordinate system to later map player positions accurately.
 
-![Field Segmentation](./Segmentation.png)
+![Field Segmentation](./images/Segmentation.png)
 
 ---
 
@@ -32,7 +32,7 @@ We used image preprocessing to locate the field and establish a coordinate syste
 
 We applied computer vision techniques to detect player bounding boxes and classify them as offensive or defensive using color/position heuristics.
 
-![Player Labeling](.images/Detection.png)
+![Player Labeling](./images/Detection.png)
 
 ---
 
@@ -42,7 +42,7 @@ We applied computer vision techniques to detect player bounding boxes and classi
 
 We trained a convolutional neural network using PyTorch that predicts formation labels from 3D arrays representing offensive player coordinates.
 
-![Output Sample](./images/ExampleOutput.png)
+![Output Sample](./images/Output.png)
 
 ## Repository Contents
 
